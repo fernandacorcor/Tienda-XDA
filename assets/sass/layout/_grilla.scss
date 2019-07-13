@@ -1,0 +1,12 @@
+.contenedor{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.contenedor{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+}
